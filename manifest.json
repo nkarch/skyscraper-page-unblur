@@ -1,8 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Skyscraper Page Unblur",
+    "name": "Skyscraper Page Un-blur",
     "version": "1.0.0",
-    "default_locale": "en",
     "description": "An extension for Google Chrome that replaces blurred images on skyscraperpage.com with their un-blurred versions",
     "content_scripts": [
         {
@@ -10,7 +9,7 @@
                 "scripts/index.js"
             ],
             "matches": [
-                "https://skyscraperpage.com",
+                "https://skyscraperpage.com/*"
             ]
         }
     ]
